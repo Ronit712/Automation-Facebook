@@ -21,7 +21,9 @@ jobs:
           pkg-manager: pip 
       - run:
           #name: "Say hello"
-          name: Run tests
+          name: 
+            Run pip install -r requirements.txt
+            Run tests
           #command: "echo Hello, World!"
           command:
              pytest
