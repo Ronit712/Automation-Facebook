@@ -18,6 +18,7 @@ jobs:
     working_directory: ~/Automation-Facebook/
     steps:
       - checkout
+        path: https://github.com/Ronit712/Automation-Facebook.git
       - python/install-packages:
           pkg-manager: pip 
       - run:
