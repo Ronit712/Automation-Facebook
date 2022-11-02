@@ -21,8 +21,8 @@ jobs:
       - python/install-packages:
           pkg-manager: pip 
       
-      #- restore_cache:
-          # key: v1-dependencies-{{ checksum "requirements.txt" }}
+      - restore_cache:
+          key: v1-dependencies-{{ checksum "Ronit712/Automation-Facebook/tree/circleci-project-setup/requirements.txt" }}
       - run:
           #name: "Say hello"
           name: 
